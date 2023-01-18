@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  background: #020202;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+}
+
+.rods {
+  border-bottom: 15px solid whitesmoke;
+  width: 1200px;
+  height: 560px;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: -2px;
+}
+
+.rod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: rgb(225, 11, 11);
+  width: 10px;
+  height: 500px;
+}
+
+.disk {
+  width: 200px;
+  height: 20px;
+  background: rgb(3, 149, 127);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: 1px solid whitesmoke;
+  background: none;
+  padding: 8px 16px;
+  margin: 0 4px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(74, 9, 139);
+  font-weight: 600;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+}
